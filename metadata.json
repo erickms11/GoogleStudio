@@ -1,0 +1,6 @@
+{
+  "name": "Equilibrium",
+  "description": "Gamified lifestyle balance tracker focused on dynamic harmony, golden zones, and anti-burnout metrics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Golden Zone Balance Ring -->
+    <path
+        android:pathData="M54,54m-27,0a27,27 0 1,0 54,0a27,27 0 1,0 -54,0"
+        android:strokeWidth="2.5"
+        android:strokeColor="#F59E0B"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Secondary Emerald Balance Ring -->
+    <path
+        android:pathData="M54,54m-20,0a20,20 0 1,0 40,0a20,20 0 1,0 -40,0"
+        android:strokeWidth="1.5"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- 5 Pillar Nodes (Work, Health, Study, Leisure, Relations) at 72 deg intervals -->
+    <!-- Top (0 deg / 12 o'clock): (54, 27) -->
+    <path
+        android:pathData="M54,27m-3.5,0a3.5,3.5 0 1,0 7,0a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#38BDF8" />
+    <!-- Top-Right (72 deg): (79.7, 35.7) ~ (80, 36) -->
+    <path
+        android:pathData="M79.7,35.7m-3.5,0a3.5,3.5 0 1,0 7,0a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#10B981" />
+    <!-- Bottom-Right (144 deg): (69.9, 69.8) ~ (70, 70) -->
+    <path
+        android:pathData="M69.9,69.8m-3.5,0a3.5,3.5 0 1,0 7,0a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#A78BFA" />
+    <!-- Bottom-Left (216 deg): (38.1, 69.8) ~ (38, 70) -->
+    <path
+        android:pathData="M38.1,69.8m-3.5,0a3.5,3.5 0 1,0 7,0a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#FBBF24" />
+    <!-- Top-Left (288 deg): (28.3, 35.7) ~ (28, 36) -->
+    <path
+        android:pathData="M28.3,35.7m-3.5,0a3.5,3.5 0 1,0 7,0a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#FB7185" />
+
+    <!-- Geometric Pentagon Golden Zone Polygon connecting the 5 pillars -->
+    <path
+        android:pathData="M54,34 L72.6,40 L65.5,63.6 L42.5,63.6 L35.4,40 Z"
+        android:strokeColor="#34D399"
+        android:strokeWidth="1.8"
+        android:strokeLineJoin="round"
+        android:fillColor="#1A34D399" />
+
+    <!-- Center Equilibrium Core Jewel -->
+    <path
+        android:pathData="M54,54m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0"
+        android:fillColor="#F8FAFC" />
+
+    <!-- Inner Core Dot -->
+    <path
+        android:pathData="M54,54m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#0F172A" />
+
+    <!-- Radial Balance Spokes connecting to center -->
+    <path
+        android:pathData="M54,34 L54,48 M72.6,40 L60,50 M65.5,63.6 L57.5,58 M42.5,63.6 L50.5,58 M35.4,40 L48,50"
+        android:strokeColor="#64748B"
+        android:strokeWidth="1.2" />
+</vector>
